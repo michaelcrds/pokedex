@@ -1,6 +1,6 @@
 # Visão Geral do Projeto
 
-Aplicação front-end consumindo a API online [pokeapi]](https://pokeapi.co/). O sistema deve listar todos pokemons, pesquisar e consultar.
+Aplicação front-end consumindo a API online [pokeapi](https://pokeapi.co/). O sistema deve listar todos pokemons, pesquisar e consultar.
 
 
 ![FireShot Capture 026 - Pokedex - localhost](https://user-images.githubusercontent.com/61437530/212144440-8ff363eb-db99-4b59-9db9-fa8a1533292c.png)
