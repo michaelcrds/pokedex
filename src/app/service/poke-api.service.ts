@@ -15,7 +15,7 @@ export class PokeApiService {
   ) { }
 
 
-  get listAll(): Observable<any> {
+  public listAll(): Observable<any> {
 
     return this.http.get<any>(this.url).pipe(
 

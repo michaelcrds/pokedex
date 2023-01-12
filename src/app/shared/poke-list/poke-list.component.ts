@@ -20,7 +20,7 @@ export class PokeListComponent implements OnInit{
   }
 
   public getAllPokemons(){
-    this.pokeApiService.listAll.subscribe({
+    this.pokeApiService.listAll().subscribe({
       next: (res) => {
         this.setAllPokemon = res.results
         this.getAllPokemon = this.setAllPokemon
