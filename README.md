@@ -1,27 +1,45 @@
-# Pokedex
+# Visão Geral do Projeto
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
+Aplicação front-end consumindo a API online [pokeapi]](https://pokeapi.co/). O sistema deve listar todos pokemons, pesquisar e consultar.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![FireShot Capture 026 - Pokedex - localhost](https://user-images.githubusercontent.com/61437530/212144440-8ff363eb-db99-4b59-9db9-fa8a1533292c.png)
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+![FireShot Capture 027 - Pokedex - localhost](https://user-images.githubusercontent.com/61437530/212144435-cb5e39f7-0a86-4d6c-8b0e-4556e9519c1c.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Tecnologias
 
-## Running unit tests
+- Angular
+- TypeScript
+- HTML5
+- SCSS
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Clonando o Repositório
 
-## Running end-to-end tests
+Primeiro é preciso que efetue a clonagem do repositório para o seu computador para assim efetuar alterações de código. Mas antes de clonar o repositório é importante que realize um **fork**, ou seja, criar uma cópia do mesmo para o seu github. Para isso basta subir a página e clicar no botão de mesmo nome e aguardar alguns minutos. Depois basta clicar em **clone or download** e copiar a URL do respositório.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Já abrindo o bash do Git para efetuar a clonagem será necessário que digite a seguinte linha de código e informe a URL copiada anteriormente:
 
-## Further help
+```
+git clone <url-do-repositorio>
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Instalando as Dependências
+
+Para instalar as dependências do projeto basta abrir o **Prompt de Comando do Node.js** (caso você esteja no linux, basta utilizar o terminal), acessar a pasta do repositório e inserir o seguinte comando:
+
+```
+npm install
+```
+
+## Servidor de Desenvolvimento
+
+Basicamente você deverá escrever seu código e enquanto você efetua alterações no arquivo é necessário deixar o comando abaixo rodando:
+
+```
+ng serve --open
+```
+
+O código irá rodar o plugin **serve**, dessa forma gerando um servidor para o desenvolvimento (`http://localhost:4200`) sendo assim toda alteração de código nos arquivos de origem irá recarregar automaticamente a página.

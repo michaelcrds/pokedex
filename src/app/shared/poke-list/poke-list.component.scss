@@ -1,0 +1,84 @@
+@import '../../../config-scss/rem-calc.scss';
+
+:host {
+  .pokelist {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: rem-calc(20) 0;
+
+    .pokemon {
+      position: relative;
+      display: flex;
+      box-sizing: border-box;
+
+      width: 49%;
+      height: rem-calc(157);
+
+      border-radius: rem-calc(10);
+
+      background-color: var(--white);
+
+      padding: rem-calc(20);
+
+      cursor: pointer;
+
+      margin-bottom: rem-calc(10);
+
+      &__info {
+        h2 {
+          font-size: rem-calc(22);
+          font-weight: 700;
+          font-style: italic;
+
+          text-transform: capitalize;
+
+          margin-bottom: rem-calc(10);
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+
+          li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: rem-calc(12);
+
+            background-color: var(--light-gray);
+
+            border-radius: rem-calc(50);
+
+            padding: rem-calc(3) rem-calc(14);
+
+            margin-bottom: rem-calc(5);
+
+            width: rem-calc(60);
+          }
+        }
+      }
+
+      &__image {
+        position: absolute;
+        right: rem-calc(20);
+        bottom: rem-calc(20);
+
+        width: rem-calc(110);
+        height: rem-calc(90);
+
+        background: url('../../../assets/background/background.svg') no-repeat;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: rem-calc(60);
+        }
+      }
+    }
+  }
+}
